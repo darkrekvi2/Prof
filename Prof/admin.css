@@ -1,0 +1,45 @@
+/* Leaderboards classes */
+
+body{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+}
+.records{
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+  padding:5px;
+  gap:5px;
+}
+
+.record{
+  display:flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.record p{
+  padding:2%;
+  border: 2px solid white;
+}
+
+.srow{
+	border: solid 1px black;
+	width:900px;
+	display:flex;
+	justify-content:space-around;
+
+}
+
+.srow p{
+	width:150px;
+	margin:0;
+	border:solid 1px black;
+	align-items:center;
+	text-align:center;
+}
